@@ -35,5 +35,15 @@ body {
 }
 
 .el-dialog__body {
-    padding: 15px 35px 0 35px;
+    padding: 15px 45px 0 35px;
+}
+
+.el-cascader-panel {
+    /* 解决cascader级联样式表超出屏幕的问题 */
+    height: 210px;
+}
+
+.el-scrollbar__wrap {
+    /* 隐藏横向滚动条 */
+    overflow-x: hidden;
 }

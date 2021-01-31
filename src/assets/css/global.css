@@ -6,6 +6,14 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 1200px;
+}
+
+body {
+    /* 只写这个属性，会出现两个滚动条 */
+    overflow-y: auto !important;
+    /* 只写这个属性，当你打开dialog时，由于padding-right=0；页面宽度会大17px；dialog会抖动　 */
+    padding-right: 0 !important;
 }
 
 .el-breadcrumb {
@@ -24,4 +32,8 @@ body,
 
 .el-pagination {
     margin-top: 15px;
+}
+
+.el-dialog__body {
+    padding: 15px 35px 0 35px;
 }

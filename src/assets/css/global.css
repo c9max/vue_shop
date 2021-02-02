@@ -35,7 +35,11 @@ body {
 }
 
 .el-dialog__body {
-    padding: 15px 45px 0 30px;
+    padding: 20px 50px;
+}
+
+.el-dialog__footer {
+    padding: 0px 30px 20px 30px;
 }
 
 .el-cascader-panel {
@@ -46,4 +50,20 @@ body {
 .el-scrollbar__wrap {
     /* 隐藏横向滚动条 */
     overflow-x: hidden;
+}
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}
+
+label.el-form-item__label {
+    padding: 0 0 5px !important;
 }

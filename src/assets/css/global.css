@@ -63,7 +63,3 @@ body {
 .ql-editor {
     min-height: 300px;
 }
-
-label.el-form-item__label {
-    padding: 0 0 5px !important;
-}
